@@ -1,14 +1,14 @@
 // Techstack used: Express, Node js, Socket.io, chess.js
 //
-//  http.createServer(app): Wraps your Express app in an HTTP server to support both HTTP  requests and WebSocket connections.
+//  1 )http.createServer(app): Wraps your Express app in an HTTP server to support both HTTP  requests and WebSocket connections.
 //  socket(server): Instantiates Socket.IO on the server to enable real-time communication.
 //  
+// 2) for socket to work we need to set it up on backend as well as frontend
+//    the word socket in callback function refers to the unique socket id of the client
 //
+// 3) dont need to write /public in the html (ejs) as when we load static files in node js it automatically looks for the public folder
 //
-//
-//
-//
-//
+// 
 //
 //
 //
